@@ -1,0 +1,18 @@
+.icon {
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  background-image: url(./chatbox-sprite.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.icon:hover {
+  background-position: right;
+  animation: heart-burst .8s steps(46) 1;
+}
+
+@keyframes heart-burst {
+  from {background-position:left;}
+  to { background-position:right;}
+ }
