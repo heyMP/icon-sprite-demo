@@ -1,3 +1,4 @@
+// comment
 var animation = window.bodymovin.loadAnimation({
   container: document.getElementById('lottie'), // Required
   path: '../ChatBox_Bubble_svg.json', // Required
