@@ -6,7 +6,7 @@ var animation = window.bodymovin.loadAnimation({
   autoplay: false, // Optional
   name: "Hello World", // Name for future reference. Optional.
 });
-animation.setSpeed(1.4);
+animation.setSpeed(2);
 
 const lottieElement = document.querySelector("#lottie");
 
