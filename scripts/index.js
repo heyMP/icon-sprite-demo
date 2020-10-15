@@ -6,19 +6,11 @@ const registerAnimation = (container, options = {}) => {
     container, // Required
     path, // Required
     renderer: 'svg', // Required
-    loop: false, // Optional
-    autoplay: false, // Optional
+    loop: true, // Optional
+    autoplay: true, // Optional
     name: "Hello World", // Name for future reference. Optional.
   });
   animation.setSpeed(2);
-
-  container.addEventListener("mouseenter", event => {
-    animation.play();
-  });
-
-  container.addEventListener("mouseleave", event => {
-    animation.stop();
-  });
 }
 
 [...document.querySelectorAll("[data-lottie]")].forEach(el => {
